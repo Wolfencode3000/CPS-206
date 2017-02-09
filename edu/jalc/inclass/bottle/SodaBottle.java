@@ -1,17 +1,12 @@
 package edu.jalc.inclass.bottle;
 
-class SodaBottle{
+public class SodaBottle{
 
    private final double capacity=20.0;
       //boolean isEmpty
    double getCapacity(){
       return capacity;
    }
-   
-   
-   
-   
-   
    
    //double height;
    //double circumference;

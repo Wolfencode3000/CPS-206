@@ -56,3 +56,7 @@ public Dog(String name){         creates new instances of Dog so each has name
  public final static - constant, never changing, always considered true
  
  Math pi - Math.PI
+ 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+ 2-15-17

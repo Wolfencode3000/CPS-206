@@ -1,0 +1,5 @@
+enum States implements State{
+
+
+
+}

@@ -1,14 +1,17 @@
 import java.util.*;
 
 public class Caretaker{
-   private List<Message> events;
+   private ArrayList<Message> events;
+   private ArrayList<Observer> observers;
    
    protected Caretaker(){
-      this.events = new ArrayList<>();
+      this.observers = new ArrayList<>();
+      this.observers.add(new ConsoleLogger);
    }
    
    protected void add(Message message){
-      events.add(message);
+      caretaker.add(message);
+      observers.parallelstream().forEach((observer)->Observer.observe(message));
    }
    
    protected Message get(int i){

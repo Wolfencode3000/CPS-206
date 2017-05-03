@@ -7,8 +7,8 @@ observer.observe(this)
 Arraylist<observer>observer = new arraylist
 observers.parallelstream().forEach((observer) -> observer.observe).this);
 
-interface Observer{
-public void observe(Logger logger)
+interface Observerable{
+public void observe(Message message)
 }
 
 
